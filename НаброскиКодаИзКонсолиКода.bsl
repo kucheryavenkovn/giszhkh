@@ -38,3 +38,15 @@
 	
 	Если Н > КоличествоИтераций Тогда Прервать КонецЕсли;
 КонецЦикла;
+
+ТокеныСекреты = РаботаСДадатаКлиент.ПрочитатьТокеныСекреты("E:\kvn\git\giszhkh\DadataSecret.csv");
+РаботаСДадатаКлиент.ПереключитьсяНаСледующийТокен();
+
+РаботаСДадатаКлиент.ОбработатьТаблицуЗначений(в1, 15000)
+РаботаСДадатаКлиент.ОбработатьТаблицуЗначений(в1, 5000)
+
+
+
+{"family":"CLIENT_ERROR","reason":"Bad Request","message":"Unexpected character ('Ð' (code 208)): was expecting comma to separate Object entries\n at [Source: (org.apache.cxf.transport.http.AbstractHTTPDestination$1); line: 1, column: 73]"}
+
+Feature 'SUGGESTIONS' disabled for token '1bff3acda88a775ebe4564d0e8cae8be300feedd'. See https://dadata.userecho.com/topics/1834 for help.
